@@ -1,11 +1,16 @@
 body {
     background-color: darkgrey;
+    font-family: 'Loma';
+}
+
+table {
+    border-collapse: collapse;
 }
 
 .content {
     display:block;
     margin: 0 auto;
-    width: 1000px;
+    width: 1200px;
     background-color: whitesmoke;
     border-radius: 2px;
 }
@@ -15,4 +20,22 @@ body {
     justify-content: space-between;
     margin-left: 40px;
     margin-right: 200px;
+}
+
+.work {
+    
+}
+
+.play {
+    
+}
+
+
+
+.name, .job {
+    text-transform: uppercase;         
+}
+
+#subtitle {
+    margin-left: 40px;
 }
