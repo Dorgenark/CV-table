@@ -8,17 +8,17 @@ table {
 }
 
 .content {
-    display:block;
+    display: block;
     margin: 0 auto;
-    width: 1200px;
+    width: 900px;
     background-color: whitesmoke;
     border-radius: 2px;
 }
 
 .resume {
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    margin-left: 45px;
+    margin-left: 40px;
     margin-right: 200px;
 }
 
@@ -26,7 +26,7 @@ table {
     display:flex;
     justify-content: flex-start;
     flex-direction: column;
-    margin-left: 45px;
+    margin-left: 40px;
 }
 
 .play {
@@ -34,26 +34,29 @@ table {
 }
 
 .tableleft {
-    margin-top: 150px;
-    margin-left: 60px;
+    margin-top: 100px;
+    margin-left: 30px;
 }
 
 .tabletitle {
     text-transform: uppercase;
     color: #3D91CD;
-    font-size: 130%;
+    font-size: 110%;
     font-weight: bold;
 }
 
+.tabletext {
+    
+}
+
 .tablesubtitle {
-    font-size: 110%;
     font-weight: bold;
 }
 
 .year {
     display: flex;
     width: 100px;
-    margin-top: 7px;
+    margin-top: 3px;
     text-align: left;
     align-content: flex-start;
 }
@@ -71,20 +74,20 @@ table {
     align-items: flex-end;
     color: whitesmoke;
     background-color: #3D91CD;
-    width: 140px;
-    height: 90px;
+    width: 110px;
+    height: 80px;
     padding-bottom: 10px;
     margin-left: 50px;
-    font-size: 180%;
+    font-size: 150%;
     border-radius: 1px;
 }
 
 .name {
-    font-size: 500%;
+    font-size: 350%;
     color: #3D91CD;
     font-weight: bold;
 }
 
 .job {
-    font-size: 200%;
+    font-size: 130%;
 }
