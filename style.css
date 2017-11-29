@@ -1,6 +1,6 @@
 body {
     background-color: darkgrey;
-    font-family: 'Loma';
+    font-family: 'Arial';
 }
 
 table {
@@ -18,24 +18,53 @@ table {
 .resume {
     display:flex;
     justify-content: space-between;
-    margin-left: 40px;
+    margin-left: 45px;
     margin-right: 200px;
 }
 
 .work {
-    
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 45px;
 }
 
 .play {
     
 }
 
+tableleft {
+    
+}
+
 
 
 .name, .job {
-    text-transform: uppercase;         
+    text-transform: uppercase;
+    line-height: 90%;
 }
 
 #subtitle {
-    margin-left: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+    color: whitesmoke;
+    background-color: #3D91CD;
+    width: 140px;
+    height: 95px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    font-size: 180%;
+    border-radius: 1px;
+}
+
+.name {
+    font-size: 500%;
+    color: #3D91CD;
+    font-weight: bold;
+}
+
+.job {
+    font-size: 200%;
 }
