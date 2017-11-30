@@ -33,20 +33,41 @@ table {
     display: flex;
 }
 
-.tableleft {
-    margin-top: 100px;
-    margin-left: 30px;
+.workplay {
+    display: flex;
 }
 
-.tabletitle {
+.tableright {
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.tableleft {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.tabletitle, .tabletitle2 {
     text-transform: uppercase;
     color: #3D91CD;
     font-size: 110%;
     font-weight: bold;
 }
 
+.tabletitle2 {
+    font-size: 140%;
+}
+
 .tabletext {
-    
+    padding-top: 7px;
+    padding-bottom: 25px;
+}
+
+.social {
+    padding-bottom: 9px;
+    padding-left: 7px;
+    font-size: 105%;
 }
 
 .tablesubtitle {
@@ -59,6 +80,7 @@ table {
     margin-top: 3px;
     text-align: left;
     align-content: flex-start;
+    font-weight: bold;
 }
 
 
